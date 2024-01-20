@@ -112,7 +112,7 @@ while True:
 
     # Update the display
     pygame.display.flip()
-=======
+
 # Set up display
 width, height = 800, 600
 screen = pygame.display.set_mode((width, height))
@@ -194,4 +194,3 @@ while running:
 # Quit Pygame
 pygame.quit()
 sys.exit()
->>>>>>> b496a0bfbaa9a05d52d15a3d88d291a83e60b608
