@@ -28,10 +28,10 @@ public class Zombies extends Application {
     @Override
     public void start(Stage primaryStage) throws IOException {
         stg = primaryStage;
-        stg.setResizable(true);
+        //stg.setResizable(true);
 
         stg.centerOnScreen();
-
+        stg.setFullScreen(true);
         Parent root1 = FXMLLoader.load(getClass().getResource("Main_page_GUI.fxml"));
 
         Scene scene1 = new Scene(root1);
